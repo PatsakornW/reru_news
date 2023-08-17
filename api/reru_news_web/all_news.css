@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Kanit;
+}
+body {
+    font-size: 120%;
+    background-position: center;
+    background-size: cover;
+}
+
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style: none;
+}
+
+
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none
+}
+
+.logo a{
+    font-size: 1rem;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li{
+    padding: 0 17px;
+}
+
+.menu ul li a{
+    font-weight: bold;
+    color: rgb(252, 252, 252);
+    font-size: 20px;
+}

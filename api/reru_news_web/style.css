@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Kanit;
+}
+
+body {
+    font-size: 120%;
+    background: #f8f8f8;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+/* .bg{
+    width: 100%;
+    height: 100%;
+    position: relative;    
+} */
+
+/* สำหรับหน้า index */
+.bg{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://scontent.fnak2-1.fna.fbcdn.net/v/t39.30808-6/296483338_3418066541754857_3743684142149907978_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHcBi6sV-s5-yQSgNakmdBCHUYIB2FnQuIdRggHYWdC4ixihZ6p2CLix1zvGrWLMGktUcXST5t2I4H8Sgv4Rm7E&_nc_ohc=eGzICF9JGwsAX-GBNox&_nc_ht=scontent.fnak2-1.fna&oh=00_AfCWU40Jmbb0kWHb5Z4AzIjbIbln_fdqxCHIoalhxQV7uw&oe=6363E772');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    /* filter: brightness(50%); */
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #0063b4;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.homeheader {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.homecontent {
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #ccc;
+    height: 100vh;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #0063b4;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial,Kanit;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}

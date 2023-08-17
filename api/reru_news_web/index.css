@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Kanit;
+}
+
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style: none;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://scontent.fnak2-1.fna.fbcdn.net/v/t39.30808-6/296308099_3418068221754689_4732909280440436826_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHllafD9fyTb2eTwLeC0ve-G4UX_joOkAgbhRf-Og6QCO6D_NE9WS6sZ0mZPs6jP4QmTwLqairY8jvOOOGQgjCW&_nc_ohc=q1An8mleIUMAX9ZEOtQ&_nc_ht=scontent.fnak2-1.fna&oh=00_AfBdXj_Ei93bhUEoeJeOPNNdlyu_DY78ONvuUZS2wtO5dA&oe=63643511');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 1rem;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li{
+    padding: 0 17px;
+}
+
+.menu ul li a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+.content{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.content .header,.grid-card{
+    width: 50%;
+    position: relative;
+}
+
+.content .header {
+    color:rgb(177, 29, 29);
+    padding: 20px;
+}
+
+.content .header h2{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.content .header h1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+.content .header p{
+    opacity: .6;
+}
+
+.grid-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+
+.grid-card .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-color: rgb(14, 105, 190);
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    transition: .4s;
+}
+
+.content .box h2{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: rgb(252, 250, 250);
+}
+
+.bg1{
+    background-image: url('./imgf/ALL\ NEWS.png');
+    background-size: cover;
+}
+
+.bg2{
+    background-image: url('./imgf/ALL\ NEWS\ \(2\).png');
+    background-size: cover;
+}
+
+.content .box:hover{
+    transform: translateY(-15px);
+}

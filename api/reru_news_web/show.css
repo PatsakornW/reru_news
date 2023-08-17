@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Kanit;
+}
+
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style: none;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+/*หน้ารายละเอียดข่าว*/
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://scontent.fnak2-1.fna.fbcdn.net/v/t39.30808-6/296308099_3418068221754689_4732909280440436826_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHllafD9fyTb2eTwLeC0ve-G4UX_joOkAgbhRf-Og6QCO6D_NE9WS6sZ0mZPs6jP4QmTwLqairY8jvOOOGQgjCW&_nc_ohc=q1An8mleIUMAX9ZEOtQ&_nc_ht=scontent.fnak2-1.fna&oh=00_AfBdXj_Ei93bhUEoeJeOPNNdlyu_DY78ONvuUZS2wtO5dA&oe=63643511');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+
+.menu{
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 1rem;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li{
+    padding: 0 17px;
+}
+
+.menu ul li a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
